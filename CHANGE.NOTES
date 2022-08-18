@@ -1,0 +1,5 @@
+CubeBlocks.sbc
+15	BlastFurnace.mwm	->	BasicRefinery.mwm
+33	BlastFurnaceConstruction_1.mwm	->	BasicRefineryConstruction_1.mwm
+34	BlastFurnaceConstruction_2.mwm	->	BasicRefineryConstruction_2.mwm
+35	BlastFurnaceConstruction_3.mwm	->	BasicRefineryConstruction_3.mwm 

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>GravelToOres</SubtypeId>
+      </Id>
+      <DisplayName>Gravel To Trace Ores</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Stone" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="0.15" TypeId="Ore" SubtypeId="Iron" /> <!-- 0.1 -->
+        <Item Amount="0.15" TypeId="Ore" SubtypeId="Nickel" /> <!-- 0.1 -->
+        <Item Amount="0.05" TypeId="Ore" SubtypeId="Cobalt" /> <!-- 0.1 -->
+        <Item Amount="0.15" TypeId="Ore" SubtypeId="Magnesium" /> <!-- 0.15 -->
+        <Item Amount="0.15" TypeId="Ore" SubtypeId="Silicon" /> <!-- 0.15 -->
+        <Item Amount="0.05" TypeId="Ore" SubtypeId="Silver" /> <!-- 0.05 -->
+        <Item Amount="0.05" TypeId="Ore" SubtypeId="Gold" /> <!-- 0.1 -->
+        <Item Amount="0.05" TypeId="Ore" SubtypeId="Platinum" /> <!-- 0.08 -->
+        <Item Amount="0.05" TypeId="Ore" SubtypeId="Uranium" /> <!-- 0.02 -->
+        <Item Amount="0.15" TypeId="Ore" SubtypeId="Ice" /> <!-- 0.15 -->
+      </Results>
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+  </Blueprints>
+</Definitions>
